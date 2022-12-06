@@ -46,7 +46,7 @@ def main():
             print("The area is {0} cm²".format(calculated_area))
 
         else:
-            print("please enter a positive number")
+            print("please enter positive numbers")
     # Check if input is a string
     except Exception:
         print("Invalid data entered! Only numbers can be accepted!")
